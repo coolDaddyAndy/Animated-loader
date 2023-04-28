@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD6D972329FBE33E00DC5FC0 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6D972229FBE33E00DC5FC0 /* LoaderView.swift */; };
+		FD6D972529FBE7BD00DC5FC0 /* MainImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6D972429FBE7BD00DC5FC0 /* MainImageView.swift */; };
 		FDC11B4529FBD30C001B546A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC11B4429FBD30C001B546A /* AppDelegate.swift */; };
 		FDC11B4729FBD30C001B546A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC11B4629FBD30C001B546A /* SceneDelegate.swift */; };
 		FDC11B4929FBD30C001B546A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC11B4829FBD30C001B546A /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD6D972229FBE33E00DC5FC0 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		FD6D972429FBE7BD00DC5FC0 /* MainImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageView.swift; sourceTree = "<group>"; };
 		FDC11B4129FBD30C001B546A /* Animated loader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated loader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC11B4429FBD30C001B546A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC11B4629FBD30C001B546A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				FDC11B4829FBD30C001B546A /* ViewController.swift */,
+				FD6D972229FBE33E00DC5FC0 /* LoaderView.swift */,
+				FD6D972429FBE7BD00DC5FC0 /* MainImageView.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -158,7 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6D972529FBE7BD00DC5FC0 /* MainImageView.swift in Sources */,
 				FDC11B4929FBD30C001B546A /* ViewController.swift in Sources */,
+				FD6D972329FBE33E00DC5FC0 /* LoaderView.swift in Sources */,
 				FDC11B4529FBD30C001B546A /* AppDelegate.swift in Sources */,
 				FDC11B4729FBD30C001B546A /* SceneDelegate.swift in Sources */,
 			);
